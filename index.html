@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto API Covid-19</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+</head>
+
+<body>
+
+    <header>
+        <img id="simbolocovid" src="img/simbolo-covid.png" alt="">
+        <p>Projeto API COVID - 19</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="equipe.html">Nomes Da Equipe</a>
+
+    </nav>
+    <div id="container">
+        <div id="dados-mapa">
+            <h1>COVID - 19 Pelo Mundo</h1>
+            <!-- <div id="grafico-mapa" style="width: 900px; height: 500px;"> -->
+            <div id="grafico-mapa">
+            </div>
+        </div>
+        <div id="dados-pizza">
+            <h1>COVID - 19 Pelo Mundo Status</h1>
+            <div id="grafico-pizza" ></div>
+        </div>
+        <div id="dados-tabela">
+            <h1>COVID - 19 No Brasil</h1>
+            <div id="grafico-tabela" >
+
+                <div id="dados">
+                    <table id="tabela-dados">
+                        <thead>
+                            <tr>
+                                <th>Sigla</th>
+                                <th>Estado</th>
+                                <th>Casos</th>
+                                <th>Mortes</th>
+                                <th>Suspeitos</th>
+                                <th>Descartados</th>
+                            </tr>
+                        </thead>
+                        <tbody id="linhas">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="js/scripts.js"></script>
+
+</html>
